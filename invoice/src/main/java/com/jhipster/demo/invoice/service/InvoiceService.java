@@ -46,7 +46,7 @@ public class InvoiceService {
      */
     @Transactional(readOnly = true)
     public Page<Invoice> findAll(Pageable pageable) {
-        log.debug("Request to get all Invoices");
+        log.debug("Request to get all Invoices - to be checked on log viewer");
         return invoiceRepository.findAll(pageable);
     }
 
