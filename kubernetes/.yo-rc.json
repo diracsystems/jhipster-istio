@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": [
+      "store",
+      "invoice",
+      "notification",
+      "product"
+    ],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": false,
+    "dockerRepositoryName": "mhamed3476",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "jhipster",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": "104.196.67.117.nip.io",
+    "istio": true,
+    "jwtSecretKey": "NzgzY2VhN2EwNjE4NjI4Nzc2Mzg5OGQ2ODAxNzZmNGYzNDkwODMyOGFlZmY4OWMxMDgwMTNmZDg4YjcwZDRlNWYzYjZkMTJiZDVkYjc4NTBiZmU2OTBhNDFlZjE0NWFmMzcxMA=="
+  }
+}

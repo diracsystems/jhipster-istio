@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.jhipster.demo.store",
+    "packageFolder": "com/jhipster/demo/store",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "useSass": true,
+    "jhipsterVersion": "6.3.0",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "serverPort": "8080",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "jwtSecretKey": "ZGY1ODJiNzVjZjNjMWFkYjZmNDQ4NjI1MThhNzQzMDU1MjNhMWExYThjYmUxZWM2NjBkYjE1OTU4YzI5OTQ5MTI5OTFjZjUyMTQ3Y2RmMmQ0OTQ2NDJmNzQ0Y2JhOWJjOTEwYWJmMWRjNDZlZjUwZjFlYzYwOTZlMTY1YWU5MmI=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Customer",
+    "Product",
+    "ProductCategory",
+    "ProductOrder",
+    "OrderItem",
+    "Invoice",
+    "Shipment",
+    "Notification"
+  ]
+}
